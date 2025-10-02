@@ -1,0 +1,21 @@
+name: DisableCommand
+version: '${project.version}'
+main: com.yourname.disablecommand.DisableCommandPlugin
+api-version: '1.21'
+author: YourName
+description: Plugin để disable các command trong Minecraft
+
+permissions:
+  disablecommand.admin:
+    description: Quyền quản trị plugin
+    default: op
+  disablecommand.bypass:
+    description: Quyền bypass các command bị disable
+    default: op
+
+commands:
+  dc:
+    description: Lệnh chính của DisableCommand plugin
+    usage: /dc <add|remove|list|reload> [command]
+    permission: disablecommand.admin
+    aliases: [disablecommand]
