@@ -3,9 +3,11 @@
 
 # Danh sách các command bị disable
 disabled-commands:
-  - "gamemode"
-  - "give"
-  - "tp"
+  - "?"
+  - "help" 
+  - "pl"
+  - "plugin"
+  - "plugins"
 
 # Thông báo khi người chơi sử dụng command bị disable
 disabled-message: "&cCommand này đã bị disable!"
