@@ -30,9 +30,11 @@ File `config.yml`:
 ```yaml
 # Danh sách các command bị disable
 disabled-commands:
-  - "gamemode"
-  - "give" 
-  - "tp"
+  - "?"
+  - "help" 
+  - "pl"
+  - "plugin"
+  - "plugins"
 
 # Thông báo khi command bị disable
 disabled-message: "&cCommand này đã bị disable!"
